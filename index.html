@@ -4,17 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK CSS  -->
+    <link rel="stylesheet" href="" />
     <title>Cara Cara | Home</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><h3>HOME</h3></li>
-          <li><h3>ABOUT US</h3></li>
-          <li><h3>PRODUCTS</h3></li>
-          <li><h3>CONTACT</h3></li>
+          <!-- HOME LINK JUST POP YOU BACK TO THE TOP OF THE PAGE -->
+          <li>
+            <h3><a href="#">HOME</a></h3>
+          </li>
+          <!-- POPS YOU TO THE ABOUT-US SECTION -->
+          <li>
+            <h3><a href="#about_us">ABOUT US</a></h3>
+          </li>
+          <!-- POPS YOU TO THE PRODUCTS SECTION -->
+          <li>
+            <h3><a href="#products">PRODUCTS</a></h3>
+          </li>
+          <!-- POPS YOU TO THE CONTACT SECTION -->
+          <li>
+            <h3><a href="#contact">CONTACT</a></h3>
+          </li>
         </ul>
+        <!-- SPLIT LOGO FOR EASIER PLACEMENT AROUND IMAGE -->
         <div class="page_logo">
           <h2>CARA CARA</h2>
           <img src="./resources/icons8-pottery-96.png" alt="pottery" />
@@ -27,19 +42,23 @@
           />
         </div>
       </nav>
+      <!-- CSS BORDER BOTTOM  -->
     </header>
     <main>
       <section class="section">
+        <!-- TEXT ON EACH SIDE OF IMAGE -->
         <img
+          class="title_image"
           src=".\resources\earl-wilcox-y3W0CzO063w-unsplash-alt.jpg"
           alt="Home Image"
         />
-        <h1>CERAMICS CRAFTED BY HAND...</h1>
-        <h1>... FROM THE GROUND UP</h1>
+        <!-- CREATED ID'S FOR PLACEMENT-->
+        <h1 class="image_text" id="">CERAMICS CRAFTED BY HAND...</h1>
+        <h1 class="image_text" id="">... FROM THE GROUND UP</h1>
       </section>
       <section class="section">
         <div class="section__title">
-          <h1>ABOUT US</h1>
+          <h1 id="about_us">ABOUT US</h1>
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -51,7 +70,7 @@
           purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet
           commodo.
         </p>
-        <p>
+        <p class="stack_text">
           Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi
           nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo
           laoreet sit amet cursus sit amet dictum. Tristique magna sit amet
