@@ -42,10 +42,12 @@ nav {
   margin: 0 140px 0 140px;
 }
 
+
 ul {
   display: flex;
   list-style: none;
   margin-left: 0;
+
 }
 
 a {
@@ -83,10 +85,15 @@ input {
   align-self: flex-end;
 }
 
+
+
 .page_logo {
   align-items: center;
   margin-right: 200px;
+
 }
+
+
 
 .title_image {
   padding-left: 89.6px;
@@ -144,4 +151,5 @@ footer {
 #copyright {
   display: flex;
   justify-content: right;
+
 }
