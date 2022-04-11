@@ -3,28 +3,58 @@
     padding: 0;
     
 }
+header{
+    height: 110px;
+}
 
 nav{
     display: flex;
-    justify-content: center;
-    height: 110px;
+    height: 72px;
+    align-items: center;
+    border-bottom: 4px solid black;
+    margin:0 140px 0 140px ;
+    
 }
 
 ul{
     display: flex;
     list-style: none;
+    margin-left: 0;
+        
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 li{
     margin: 10px;
     height: 27px;
     width: auto;
+    
 }
 
 .page_logo,.search_bar{
     display: flex;
-    
+    margin:auto
 }
 
 .search_bar{
     height: 27px;
+    width: auto;
+    margin-right: 0;
+}
+input{
+    width: 292px;
+}
+
+.page_logo{
+    align-items: center;
+    margin-right: 200px;
+  
+}
+.section{
+    margin: auto;
+    align-items: center;
 }
