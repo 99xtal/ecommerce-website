@@ -6,10 +6,31 @@ header {
   height: 110px;
 }
 
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
   letter-spacing: 5px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
   font-weight: normal;
 }
 
@@ -69,6 +90,21 @@ input {
 
 .title_image {
   padding-left: 89.6px;
+}
+
+.section {
+  padding-left: 140px;
+  padding-left: 140px;
+  padding-top: 121px;
+  padding-bottom: 121px;
+}
+
+.section__title {
+  width: 950px;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  padding-bottom: 20px;
 }
 
 footer {
