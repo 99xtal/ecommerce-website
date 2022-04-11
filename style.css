@@ -40,13 +40,23 @@ li{
     margin:auto
 }
 
+/* search bar elements */
 .search_bar{
     height: 27px;
     width: auto;
     margin-right: 0;
+    position: relative;
+    gap: 26px;
+}
+.magnifying_glass{
+    position:absolute ;
+    right: 88px;
 }
 input{
     width: 292px;
+}
+.cart{
+    align-self:flex-end;
 }
 
 .page_logo{
@@ -54,7 +64,8 @@ input{
     margin-right: 200px;
   
 }
-.section{
-    margin: auto;
-    align-items: center;
+ 
+
+.title_image{
+    padding-left: 89.6px;
 }
