@@ -15,23 +15,24 @@ h1 {
 
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 40px;
-  letter-spacing: 5px;
+  font-size: 30px;
+  letter-spacing: 1px;
   font-weight: lighter;
 }
 
 h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   font-weight: normal;
 }
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  letter-spacing: 0px;
+  letter-spacing: 150%;
   font-weight: normal;
+  line-height: 175%;
 }
 
 nav {
@@ -85,7 +86,7 @@ input {
   font-weight: normal;
 }
 .cart {
-  align-self:flex-end;
+  align-self: flex-end;
   font-size: 15px;
 }
 /* Top of page image */
@@ -93,22 +94,22 @@ input {
   align-items: center;
   margin: auto;
 }
-.logo{
+.logo {
   font-size: 20px;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 /*image under   */
-.image_section{
+.image_section {
   position: relative;
 }
 
-.title_image{
-width: 100%;
-height: 100%;
-position: relative;
+.title_image {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-.image_section::after{
-  content: '';
+.image_section::after {
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -117,8 +118,8 @@ position: relative;
   /* background-blend-mode:normal; */
   background: linear-gradient(90deg,black,rgba(255, 255, 255, 0));
 }
-.image_section::before{
-  content: '';
+.image_section::before {
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
@@ -129,24 +130,23 @@ position: relative;
   z-index: 1;
 }
 
-#image_text2,#image_text1{
+#image_text2,
+#image_text1 {
   position: absolute;
   font-size: 45px;
   z-index: 1;
-
 }
-#image_text1{
+#image_text1 {
   top: 86px;
   left: 31px;
   color: white;
 }
 
-#image_text2{
+#image_text2 {
   color: white;
   bottom: 100px;
   right: 16px;
 }
-
 
 .section {
   padding-left: 140px;
@@ -161,6 +161,55 @@ position: relative;
   border-bottom-color: black;
   border-bottom-style: solid;
   padding-bottom: 20px;
+}
+
+.products {
+  width: 100%;
+  margin-top: 122px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+}
+
+.product {
+  width: 398px;
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product__image {
+  width: 398px;
+  height: 398px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #707070;
+  border-width: 1px;
+}
+
+.product__name-and-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__name {
+  width: 276px;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+}
+
+.product__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product h3 {
+  color: #bf7631;
+  text-decoration: underline;
 }
 
 .contact-form {
@@ -190,10 +239,15 @@ position: relative;
   font-weight: normal;
   color: white;
   padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-style: none;
   box-shadow: 2px 2px 6px black;
 }
 
+.primary-button:focus {
+  box-shadow: inset 0 0 6px black;
+}
 
 footer {
   background-color: #bf7631;
