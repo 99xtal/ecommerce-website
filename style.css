@@ -48,22 +48,21 @@ ul {
   list-style: none;
   margin-left: 0;
   margin-right: 20px;
+  gap: 40px;px ;
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 15px;
 }
 li {
-  margin: 10px;
   height: auto;
 }
 
 .page_logo_top,
 .search_bar {
   display: flex;
-  margin: auto;
 }
 
 /* search bar elements */
@@ -76,7 +75,7 @@ li {
 }
 .magnifying_glass {
   position: absolute;
-  right: 70px;
+  right: 85px;
 }
 input {
   width: 292px;
@@ -95,7 +94,7 @@ input {
   margin: auto;
 }
 .logo {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bolder;
 }
 /*image under   */
@@ -114,9 +113,9 @@ input {
   left: 0;
   top: 0;
   width: 30%;
-  height: 99%;
+  height: 99.99%;
   /* background-blend-mode:normal; */
-  background: linear-gradient(90deg,black,rgba(255, 255, 255, 0));
+  background: linear-gradient(90deg,black,rgba(0, 0, 0, 0.738),rgba(0, 0, 0, 0));
 }
 .image_section::before {
   content: "";
@@ -124,9 +123,9 @@ input {
   right: 0;
   top: 0;
   width: 30%;
-  height: 99%;
+  height: 99.99%;
   background-blend-mode:normal;
-  background: linear-gradient(90deg,rgba(255, 255, 255, 0),black);
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.599),black);
   z-index: 1;
 }
 
