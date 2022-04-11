@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
 header {
   height: 110px;
+  background-color: white;
 }
 
 h1 {
@@ -172,6 +174,32 @@ input {
   border-bottom-color: black;
   border-bottom-style: solid;
   padding-bottom: 20px;
+}
+
+#about-img-1 {
+  max-width: 600px;
+  height: auto;
+  transform: scaleX(-1);
+}
+
+#about-img-2 {
+  max-width: 397px;
+  height: auto;
+}
+
+#about-us {
+  padding-top: 55px;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
 }
 
 .products {
