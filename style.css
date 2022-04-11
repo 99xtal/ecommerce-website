@@ -6,7 +6,7 @@
 
 nav{
     display: flex;
-    border-bottom: 3px, solid,black;
+    border-bottom: 10px, solid,black;
     
 }
 
@@ -15,6 +15,7 @@ ul{
     list-style: none;
 }
 
-.page_logo{
+.page_logo,.search_bar{
     display: flex;
 }
+
