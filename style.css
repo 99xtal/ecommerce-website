@@ -6,16 +6,25 @@
 
 nav{
     display: flex;
-    border-bottom: 10px, solid,black;
-    
+    justify-content: center;
+    height: 110px;
 }
 
 ul{
     display: flex;
     list-style: none;
 }
+li{
+    margin: 10px;
+    height: 27px;
+    width: auto;
+}
 
 .page_logo,.search_bar{
     display: flex;
+    
 }
 
+.search_bar{
+    height: 27px;
+}
