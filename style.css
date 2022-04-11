@@ -26,7 +26,6 @@ ul {
   display: flex;
   list-style: none;
   margin-left: 0;
-
 }
 
 a {
@@ -63,20 +62,62 @@ input {
 .cart {
   align-self: flex-end;
 }
-
-
-
+/* Top of page image */
 .page_logo {
   align-items: center;
-  margin-right: 200px;
-
+  margin: auto;
 }
 
-
-
-.title_image {
-  padding-left: 89.6px;
+/*image under   */
+.image_section{
+  position: relative;
 }
+
+.title_image{
+width: 100%;
+height: 100%;
+position: relative;
+}
+.image_section::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  background-blend-mode:normal;
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),black);
+}
+.image_section::before{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  background-blend-mode:normal;
+  background: -moz-linear-gradient(-90deg,rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),black);
+  z-index: 1;
+}
+
+#image_text2,#image_text1{
+  position: absolute;
+  font-size: 45px;
+  z-index: 1;
+
+}
+#image_text1{
+  top: 86px;
+  left: 31px;
+  color: white;
+}
+
+#image_text2{
+  color: white;
+  bottom: 100px;
+  right: 16px;
+}
+
 
 footer {
   background-color: #bf7631;
