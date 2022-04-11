@@ -1,4 +1,20 @@
 *{
     margin: 0;
+    padding: 0;
     
+}
+
+nav{
+    display: flex;
+    border-bottom: 3px, solid,black;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.page_logo{
+    display: flex;
 }
