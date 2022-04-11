@@ -33,6 +33,7 @@ li{
     height: 27px;
     width: auto;
     
+    
 }
 
 .page_logo,.search_bar{
@@ -61,11 +62,11 @@ input{
 
 .page_logo{
     align-items: center;
-    margin-right: 200px;
+    margin-right: auto;
   
 }
  
 
 .title_image{
-    padding-left: 89.6px;
+    padding-left: auto;
 }
