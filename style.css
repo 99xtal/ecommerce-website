@@ -52,7 +52,7 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
+  font-size: 10px;
 }
 li {
   margin: 10px;
@@ -75,7 +75,7 @@ li {
 }
 .magnifying_glass {
   position: absolute;
-  right: 100px;
+  right: 70px;
 }
 input {
   width: 292px;
@@ -112,20 +112,20 @@ position: relative;
   position: absolute;
   left: 0;
   top: 0;
-  width: 15%;
-  height: 100%;
-  background-blend-mode:normal;
-  background: -moz-linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),black);
+  width: 30%;
+  height: 99%;
+  /* background-blend-mode:normal; */
+  background: linear-gradient(90deg,black,rgba(255, 255, 255, 0));
 }
 .image_section::before{
   content: '';
   position: absolute;
   right: 0;
   top: 0;
-  width: 15%;
-  height: 100%;
+  width: 30%;
+  height: 99%;
   background-blend-mode:normal;
-  background: -moz-linear-gradient(-90deg,rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.685),rgb(0, 0, 0),black);
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0),black);
   z-index: 1;
 }
 
