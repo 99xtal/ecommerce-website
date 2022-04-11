@@ -1,72 +1,119 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-header{
-    height: 110px;
-}
-
-nav{
-    display: flex;
-    height: 72px;
-    align-items: center;
-    border-bottom: 4px solid black;
-    margin:0 140px 0 140px ;
-    
+header {
+  height: 110px;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    margin-left: 0;
-        
-    
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: normal;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-li{
-    margin: 10px;
-    height: 27px;
-    width: auto;
-    
-    
+nav {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  border-bottom: 4px solid black;
+  margin: 0 140px 0 140px;
 }
 
-.page_logo,.search_bar{
-    display: flex;
-    margin:auto
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  margin: 10px;
+  height: 27px;
+  width: auto;
+}
+
+.page_logo,
+.search_bar {
+  display: flex;
+  margin: auto;
 }
 
 /* search bar elements */
-.search_bar{
-    height: 27px;
-    width: auto;
-    margin-right: 0;
-    position: relative;
-    gap: 26px;
+.search_bar {
+  height: 27px;
+  width: auto;
+  margin-right: 0;
+  position: relative;
+  gap: 26px;
 }
-.magnifying_glass{
-    position:absolute ;
-    right: 88px;
+.magnifying_glass {
+  position: absolute;
+  right: 88px;
 }
-input{
-    width: 292px;
+input {
+  width: 292px;
 }
-.cart{
-    align-self:flex-end;
+.cart {
+  align-self: flex-end;
 }
 
-.page_logo{
-    align-items: center;
-    margin-right: auto;
-  
-}
- 
 
-.title_image{
-    padding-left: auto;
+
+.page_logo {
+  align-items: center;
+  margin-right: 200px;
+
+}
+
+
+
+.title_image {
+  padding-left: 89.6px;
+}
+
+footer {
+  background-color: #bf7631;
+  padding: 10px;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-right: 200px;
+  align-items: center;
+}
+
+.footer-body__section--centered {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons-group {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  width: 74px;
+  height: 74px;
+}
+
+#copyright {
+  display: flex;
+  justify-content: right;
+
 }
