@@ -6,10 +6,31 @@ header {
   height: 110px;
 }
 
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
 h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
   letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
   font-weight: normal;
 }
 
@@ -21,24 +42,24 @@ nav {
   margin: 0 140px 0 140px;
 }
 
-
 ul {
   display: flex;
   list-style: none;
   margin-left: 0;
+  margin-right: 20px;
 }
 
 a {
   text-decoration: none;
   color: black;
+  font-size: 15px;
 }
 li {
   margin: 10px;
-  height: 27px;
-  width: auto;
+  height: auto;
 }
 
-.page_logo,
+.page_logo_top,
 .search_bar {
   display: flex;
   margin: auto;
@@ -54,20 +75,28 @@ li {
 }
 .magnifying_glass {
   position: absolute;
-  right: 88px;
+  right: 100px;
 }
 input {
   width: 292px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: normal;
 }
 .cart {
-  align-self: flex-end;
+  align-self:flex-end;
+  font-size: 15px;
 }
 /* Top of page image */
-.page_logo {
+.page_logo_top {
   align-items: center;
   margin: auto;
 }
-
+.logo{
+  font-size: 20px;
+  font-weight:bolder;
+}
 /*image under   */
 .image_section{
   position: relative;
@@ -119,6 +148,53 @@ position: relative;
 }
 
 
+.section {
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 121px;
+  padding-bottom: 121px;
+}
+
+.section__title {
+  width: 950px;
+  border-bottom-width: 5px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  padding-bottom: 20px;
+}
+
+.contact-form {
+  margin-top: 55px;
+  margin-left: 276px;
+  margin-right: 276px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form__email-field {
+  padding: 5px;
+  width: 98.5%;
+}
+
+.contact-form__message-field {
+  padding: 5px;
+  width: 98.5%;
+  height: 205px;
+}
+
+.primary-button {
+  background-color: #bf7631;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  padding: 5px;
+  border-style: none;
+  box-shadow: 2px 2px 6px black;
+}
+
+
 footer {
   background-color: #bf7631;
   padding: 10px;
@@ -156,5 +232,4 @@ footer {
 #copyright {
   display: flex;
   justify-content: right;
-
 }
