@@ -107,6 +107,7 @@ input {
   height: 100%;
   position: relative;
 }
+/* pseudo elemet to place over image to create gradient */
 .image_section::after {
   content: "";
   position: absolute;
